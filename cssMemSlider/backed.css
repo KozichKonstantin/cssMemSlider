@@ -220,8 +220,6 @@ display: none;
     .cont_for_text{
         margin-left: 4em;
     }
-}
-@media (max-width:480px) {
     .container{
         padding: 0;
     }
@@ -234,11 +232,17 @@ display: none;
         height: 50%;
         width: 49.6vh;
     }
+    
+}
+@media (max-width:480px) {
+    
     .slide_2 img, 
     .slide_3 img,
     .slide_4 img,
     .slide_5 img{
         margin-left: -2.2em;
                 }
-
+    .navigation{
+        padding-right: 6.3em;
+    }
 }
