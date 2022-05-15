@@ -13,7 +13,7 @@ body{
 
 .slide{
 
-    height: 200em;
+    height: 12em;
 }
 
 .slide_cont{
@@ -38,9 +38,9 @@ label.point{
     width: 1.5em;
     height: 1.5em;
     margin: 0em;
-    opacity: .6;
+    opacity: .9;
     cursor: pointer;
-    background-color: rgb(239, 239, 239);
+    background-color: rgb(145, 145, 145);
     border: 1em solid rgb(247, 255, 100);
     transition: all .5s ease-in-out;
     display: flex;
@@ -51,6 +51,7 @@ label.point:hover{
     opacity: 1;
 }
 .visible_lable{
+    cursor: pointer;
     width: 1em;
     height: 1em;
     opacity: 1;
@@ -110,6 +111,7 @@ display: none;
     padding-right: 2em ;
     margin-top: 31.75em;
     display: flex;
+    cursor: pointer;
 }
 .slide_2 img, 
 .slide_3 img,
@@ -165,6 +167,12 @@ display: none;
     border: 0.125em solid rgb(0, 0, 0);
     
 }
+    /* .slide_2:checked, 
+    .slide_3:checked,
+    .slide_4:checked,
+    .slide_5:checked ~ .visible_lable:hover{
+    
+    } */
 @media (max-width:800px) {
 
     .sliders img{
