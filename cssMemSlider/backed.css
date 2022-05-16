@@ -79,7 +79,7 @@ display: none;
     width: 400%;
     height: 100%;
     display: flex;
-
+    margin-top: 3em;
 }
 
 .sliders{
@@ -100,6 +100,7 @@ display: none;
 .cont_for_text{
     max-width: 20em;
     margin-top: 3em;
+    margin-left: 1em;
     display: flex;
 }
 .cont_for_text.one{
@@ -111,7 +112,6 @@ display: none;
     padding-right: 2em ;
     margin-top: 31.75em;
     display: flex;
-    cursor: pointer;
 }
 .slide_2 img, 
 .slide_3 img,
